@@ -78,7 +78,10 @@ const LeftButton = styled.div`
   margin: 8px;
 
   @media (max-width: 768px) {
-    width: 500px;
+    width: 400px;
+  }
+  @media (max-width: 468px) {
+    width: 230px;
   }
 `;
 const RightButton = styled(LeftButton)`
